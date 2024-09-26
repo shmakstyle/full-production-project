@@ -7,7 +7,10 @@
     "jsx": "react-jsx", // Обработка JSX для React
     "allowJs": true, // Разрешение компиляции .js файлов
     "moduleResolution": "node", // Стратегия разрешения модулей, аналогичная Node.js
-    //"baseUrl": ".", // Для абсолютного импорта
+    "baseUrl": ".", // Для абсолютного импорта
+    "paths": {
+      "*": ["./src/*"]
+    },
     "esModuleInterop": true, // Совместимость с ES6 модулями
     "allowSyntheticDefaultImports": true // Разрешение импорта модулей без export default
   },
